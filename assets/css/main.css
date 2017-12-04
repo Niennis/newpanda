@@ -1,0 +1,94 @@
+body{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+header{
+  background-color: #FF875F;
+}
+
+header h2{
+  font-weight: bold;
+  margin: 1.5em 0 0.45em 0;
+}
+
+header p{
+  margin: 0 0 3em 0;
+  font-size: 1.15em;
+}
+
+.bigPanda, .twoPandas, .sleepyPanda{
+  filter: grayscale(1);
+  margin-top: -1.5em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bigPanda{
+  background-image: url(../../assets/img/uno.jpg);  
+  padding: 17% 0;
+}
+
+.twoPandas{
+  background-image: url(../../assets/img/dos.jpg);  
+  padding: 24% 0;
+}
+
+.sleepyPanda{
+  background-image: url(../../assets/img/tres.jpg);  
+  padding: 24% 0;
+}
+
+.descriptionContainer{
+  background-color: #93F082;
+  border-top: 1.5em solid #FF875F;
+  border-bottom: 1.5em solid #FF875F;
+}
+
+.pandaDescription{
+  background-color: #FF875F;
+  margin: 3.5em;
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.pandaDescription h5{
+  font-weight: bold;
+  margin: 1.5em;
+}
+
+.picsCol{
+  margin: 3.5em;  
+}
+
+.miniPics{
+  background-color: #93F082;
+  text-align: center;
+  border-top: 1.5em solid #FF875F;
+  border-bottom: 3em solid #FF875F;
+}
+
+.miniPics h2{
+  font-weight: bold;
+}
+
+.miniPics img{
+  border: 1em solid white;
+  margin: 0.5em;
+}
+
+footer{
+  background-color: #FF875F;
+}
+
+footer h6{
+  line-height: 2em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.pandaFooter{
+  margin-bottom: -1.250em !important;  
+}
